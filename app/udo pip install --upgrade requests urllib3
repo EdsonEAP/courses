@@ -1,0 +1,22 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+     Loaded: loaded (]8;;file://CursoAnatomia/usr/lib/systemd/system/docker.service/usr/lib/systemd/system/docker.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Thu 2024-09-05 03:18:35 UTC; 2s ago
+TriggeredBy: [0;1;32m●[0m docker.socket
+       Docs: ]8;;https://docs.docker.comhttps://docs.docker.com]8;;
+   Main PID: 69925 (dockerd)
+      Tasks: 9
+     Memory: 25.2M (peak: 25.4M)
+        CPU: 340ms
+     CGroup: /system.slice/docker.service
+             └─[0;38;5;245m69925 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock[0m
+
+Sep 05 03:18:35 CursoAnatomia dockerd[69925]: time="2024-09-05T03:18:35.404297414Z" level=info msg="Starting up"
+Sep 05 03:18:35 CursoAnatomia dockerd[69925]: time="2024-09-05T03:18:35.406742744Z" level=info msg="detected 127.0.0.53 nameserver, assuming systemd-resolved, so using resolv.conf: /run/systemd/resolve/resolv.conf"
+Sep 05 03:18:35 CursoAnatomia dockerd[69925]: time="2024-09-05T03:18:35.526558546Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Sep 05 03:18:35 CursoAnatomia dockerd[69925]: time="2024-09-05T03:18:35.530625951Z" level=info msg="Loading containers: start."
+Sep 05 03:18:35 CursoAnatomia dockerd[69925]: time="2024-09-05T03:18:35.736019468Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Sep 05 03:18:35 CursoAnatomia dockerd[69925]: time="2024-09-05T03:18:35.798340657Z" level=info msg="Loading containers: done."
+Sep 05 03:18:35 CursoAnatomia dockerd[69925]: time="2024-09-05T03:18:35.818806447Z" level=info msg="Docker daemon" commit=24.0.7-0ubuntu4.1 graphdriver=overlay2 version=24.0.7
+Sep 05 03:18:35 CursoAnatomia dockerd[69925]: time="2024-09-05T03:18:35.818980783Z" level=info msg="Daemon has completed initialization"
+Sep 05 03:18:35 CursoAnatomia dockerd[69925]: time="2024-09-05T03:18:35.862526789Z" level=info msg="API listen on /run/docker.sock"
+Sep 05 03:18:35 CursoAnatomia systemd[1]: Started docker.service - Docker Application Container Engine.
