@@ -14,7 +14,7 @@
                 </svg>
                 @endif
 
-                <a href="{{$item['url']}}" class="ms-1 text-sm font-medium text-gray-700 hover:text-black hover:font-bold md:ms-2 dark:text-gray-400 dark:hover:text-black">
+                <a href="{{$item['url']}}" class="ms-1 text-sm font-medium text-gray-700 hover:text-black hover:font-bold md:ms-2">
                     {{$item['name']}}
                 </a>
             </div>
